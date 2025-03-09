@@ -206,11 +206,6 @@ h1 {
         font-size: 1.1rem;
     }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .linkedin-container,
     .github-container,
     .insta-container {
@@ -242,10 +237,6 @@ h1 {
 
     .obj_1 {
         font-size: 1rem;
-    }
-
-    nav ul li {
-        padding: 8px 12px;
     }
 
     #scrollToTopBtn {
