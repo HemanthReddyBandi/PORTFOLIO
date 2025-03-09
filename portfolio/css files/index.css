@@ -1,4 +1,3 @@
-
 body {
     background-color: black;
     margin: 0;
@@ -20,6 +19,7 @@ video {
     left: 0;
     z-index: -1; 
 }
+
 .overlay {
     position: absolute;
     top: 20%;
@@ -47,6 +47,7 @@ video {
     text-shadow: 0px 0px 15px rgb(201, 12, 12);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .explore {
     position: absolute;
     top: 80%;
@@ -60,28 +61,30 @@ video {
     cursor: pointer;
     transition: background 0.3s ease-in-out;
 }
+
 .here {
-font-size: 40px;
-font-family:'Times New Roman', Times, serif;
-font-style:oblique;
-color: white; 
-padding: 20px 40px;
-background: rgba(18, 19, 7, 0.819); 
-border-radius: 25px;
-box-shadow: 0px 0px 15px 15px rgba(214, 25, 170, 0.988);
-transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
-cursor: pointer;
-text-decoration: none;
-text-align: right;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: white; 
+    padding: 20px 40px;
+    background: rgba(18, 19, 7, 0.819); 
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 15px rgba(214, 25, 170, 0.988);
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
 }
 
 .here:hover {
-color: rgb(16, 20, 4);
-background: rgba(221, 232, 15, 0.9);
-transform: scale(1.1); 
-box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
-text-decoration: none;
+    color: rgb(16, 20, 4);
+    background: rgba(221, 232, 15, 0.9);
+    transform: scale(1.1); 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
 }
+
 #scrollToTopBtn {
     position: fixed;
     bottom: 20px;
@@ -95,9 +98,58 @@ text-decoration: none;
     cursor: pointer;
     display: none; 
     transition: opacity 0.3s;
-    
 }
 
 #scrollToTopBtn:hover {
     background-color: #f64f0d;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .year {
+        font-size: 100px;
+        letter-spacing: 20px;
+    }
+
+    .quote {
+        font-size: 30px;
+    }
+
+    .explore {
+        font-size: 18px;
+        padding: 12px 25px;
+        top: 70%;
+    }
+
+    .here {
+        font-size: 30px;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .year {
+        font-size: 70px;
+        letter-spacing: 15px;
+    }
+
+    .quote {
+        font-size: 25px;
+    }
+
+    .explore {
+        font-size: 16px;
+        padding: 10px 20px;
+        top: 60%;
+    }
+
+    .here {
+        font-size: 25px;
+        padding: 12px 25px;
+    }
+
+    #scrollToTopBtn {
+        font-size: 20px;
+        padding: 8px 12px;
+    }
 }
