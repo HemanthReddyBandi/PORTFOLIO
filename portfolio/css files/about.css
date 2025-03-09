@@ -142,3 +142,22 @@ color: #008000;
     width: 100%;
     padding-left: 20px;
 }
+   #scrollToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #0077b5;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 50%;
+        font-size: 25px;
+        cursor: pointer;
+        display: none; 
+        transition: opacity 0.3s;
+        
+    }
+    
+    #scrollToTopBtn:hover {
+        background-color: #f64f0d;
+    }
