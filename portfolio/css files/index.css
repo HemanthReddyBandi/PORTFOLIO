@@ -18,14 +18,14 @@ body {
     left: 0;
     z-index: -1; 
 }*/
-img {
-    width: 100%;  /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
-    object-fit: cover; /* Ensures the image covers the full area */
+.bg-image {
+    width: 100vw;   /* Full screen width */
+    height: 100vh;  /* Full screen height */
+    object-fit: cover; /* Ensure full coverage */
     position: absolute;
     top: 0;
     left: 0;
-    z-index:-1;
+    z-index: -1;
 }
 
 .overlay {
