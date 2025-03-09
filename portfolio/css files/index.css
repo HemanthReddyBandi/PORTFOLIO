@@ -19,12 +19,13 @@ body {
     z-index: -1; 
 }*/
 img {
-    width: 100vw;  /* Full width of the viewport */
+    width: 100%;  /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
     object-fit: cover; /* Ensures the image covers the full area */
     position: absolute;
     top: 0;
     left: 0;
+    z-index:-1;
 }
 
 .overlay {
