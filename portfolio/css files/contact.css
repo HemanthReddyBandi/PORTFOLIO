@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 body {
-    background: url('https://raw.githubusercontent.com/HemanthReddyBandi/PORTFOLIO/main/portfolio/contact.jpg') no-repeat center center/cover;
+    background: url('../contact.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
