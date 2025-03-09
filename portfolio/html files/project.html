@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my projects</title>
+    <link rel="stylesheet" href="../css files/project.css">
+</head>
+<header>
+    <h1 class="head">ACADEMIC PROJECTS</h1>
+    <a href="portfolio.html" target="_main">GO TO HOME</a>
+</header>
+<div class="navigation">
+<nav>
+    <ul > 
+       <b> 
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li></b>
+    </ul>
+</nav>
+</div>
+<body>
+    <div class="bookmart">
+       
+        <h2 class="book">Project-1. Bookmart</h2>
+        <div class="desc">
+            <p>| <b>B</b>ookmart is a full-stack e-commerce web application developed as part of "<b>my final-year diploma project"</b>, showcasing my skills in web development.</p>
+            <p>| <b>T</b>his project improves my coding skills in full stack  web development, while creating the project i have learned and explored a lot in the tech world. </p>
+            <p>| <b>B</b>ookmart was initially hosted on 000webhost, a free web hosting platform, but the free hosting service has now been discontinued, requiring an upgrade to a premium plan.</p>    
+            <p>| <b>S</b>o that i have decided to host in my github pages with an better version of UI ,but here there is lack of database.</p>    
+            <p>| <B>Y</B>ou can check my github profile--</p>
+            <a href="https://github.com/HemanthReddyBandi" target="_blank">https://github.com/HemanthReddyBandi</a>
+            <p style="margin-top: 10px;">| <B>H</B>ere is my updated website url--</p>
+            <a href="https://hemanthreddybandi.github.io/BOOKMARTSITE/" target="_blank">https://hemanthreddybandi.github.io/BOOKMARTSITE/</a>
+            
+        </div>
+        <ul class="list" type="circle" >
+            <p>Technology Stack:</p>
+            <li><u>Frontend</u> : HTML, CSS, jQuery</li>
+            <li><u>Backend</u>  : PHP, JavaScript</li>
+            <li><u>Database</u> : MySQL</li>
+        </ul>
+        <ul class="list" type="circle" >
+            <p>Key Features:</p>
+           <li><u>User Authentication</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– Secure login and registration system for customers and admins.</li>
+            <li><u>Product Management</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– An admin panel to add, update, and delete products.</li>
+            <li><u>Shopping Cart System</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– Users can add items to their cart and review them before checkout.</li>
+            <li><u>Dynamic Frontend </u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– Built with HTML, CSS, and jQuery for an interactive user experience.</li>
+            <li><u>Backend Functionality</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– Powered by PHP and JavaScript to handle data processing and business logic.</li>
+            <li><u>No Payment Integration</u>&nbsp;&nbsp;&nbsp;– The platform focuses on product browsing and order management without online payments.</li>
+            
+        </ul>
+        <p class="dec">This project strengthened my full-stack development skills and provided hands-on experience in building a real-world web application.
+
+        </p>
+    <hr class="prj_1">
+    <h2 class="bookmart_img">WEBSITE IMAGES OVERVIEW</h2>
+    <div class="slider-container">
+        <div class="swipe">Swipe →</div>
+        <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <div class="slider">
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (3).png" alt="Screenshot 1"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (4).png" alt="Screenshot 2"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (5).png" alt="Screenshot 3"></div> 
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (6).png" alt="Screenshot 3"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (7).png" alt="Screenshot 3"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (8).png" alt="Screenshot 3"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (9).png" alt="Screenshot 3"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (11).png" alt="Screenshot 3"></div>
+            <div class="slide"><img src="../bookmart_project_screenshot\Screenshot (12).png" alt="Screenshot 3"></div>
+        </div>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+    </div>
+    <script>
+        let currentIndex = 0;
+
+        function moveSlide(direction) {
+            const slider = document.querySelector('.slider');
+            const totalSlides = document.querySelectorAll('.slide').length;
+            
+            currentIndex += direction;
+            if (currentIndex < 0) {
+                currentIndex = totalSlides - 1;  // Loop back to last slide
+            } else if (currentIndex >= totalSlides) {
+                currentIndex = 0;  // Loop back to first slide
+            }
+
+            const offset = -currentIndex * 100; // Move slider
+            slider.style.transform = `translateX(${offset}%)`;
+        }
+    
+    </script>
+    <hr class="prj_1">
+    <div>
+        <h2 class="video">VIDEO DEMO</h2>
+        <video class="demo-video" controls>
+            <source src="../bookmart_project_video\Screen Recording 2024-08-11 161652.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>  
+    </div>
+    <hr class="prj_2">
+    <div class="project_2">
+        <h2 class="project_title">Project 2:Guess the Number Game - Android App</h2>
+        <h3 class="period">- Developed during: 2-2 semester</h3>
+        <p class="guess">Guess game is an mobile application  with built in random numbers from 1 to 50 ,Users have to guess the correct number to win he game. </p>
+        <ul class="list1" type="circle" >
+            <p>Languages & Technologies Used:</p>
+            <li><u>Java</u>: Core programming language for Android app development. Used for logic, UI handling, and event-driven programming.</li>
+            <li><u>XML</u>: Used for designing the graphical user interface (GUI). Defines layouts, buttons, text views, and other UI elements.</li>
+            <li><u>Android SDK</u>: Provides libraries and tools to develop, debug, and test the app on various Android devices.</li>
+            <li><u>Gradle</u>: Used for project build automation and APK generation</li>
+        </ul>
+        <ul class="list1" type="circle" >
+            <p>Skills Acquired:</p>
+            <li><u>Android App Development</u>: Understanding of activity lifecycle, event handling, and UI components.</li>
+            <li><u>Object-Oriented Programming (OOP)</u>: Implemented through Java, covering concepts like classes, methods, and event listeners.</li>
+            <li><u>User Interface (UI) Design</u>: Created a responsive layout using XML and ConstraintLayout for better device compatibility.</li>
+            <li><u>Random Number Generation & Logic Handling</u>: Implemented number guessing logic using Java’s Random class.</li>
+            <li><u>APK Generation</u>: Built the app package file (.apk) using Android Studio for deployment on Android devices.</li>
+        </ul>
+        <hr class="prj_2">
+        <h2 class="guess_img">APP INTERFACE OVERVIEW</h2>
+        <img src="../guess_game_project_screenshot\Guess game screenshot.png" alt="app_screenshot" class="ggs">
+        <hr class="prj_2">
+        <div >
+            <p class="download">Here You Can Download Guess Game APK
+        <a href="../guess_game_apk\app-debug.apk" download class="download-btn">
+           <img src="../guess_game_project_screenshot\download_symbol.webp" alt="Download">
+        </a></p>
+    </div>
+        <h2 class="note"><u>Supported Android Versions:</u>Android 5.0 (Lollipop) and above.</h2>
+    </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">⬆ Top</button>
+    <script>
+        window.onscroll = function() {
+            let scrollBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+    
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>

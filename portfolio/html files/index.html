@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MY PORTFOLIO</title>
+    <link rel="stylesheet" href="../css files/index.css">
+</head>
+<body>
+    <video src="../index_background.mp4" autoplay loop playsinline> Your browser does not support the video tag.</video>
+
+    <div class="overlay">
+        <h1 class="year">2025</h1>
+        <p class="quote">"Success in programming isn’t about speed; it’s about perseverance."</p>
+    </div>
+
+    <div class="explore">
+        <a href="portfolio.html" target="_blank" onclick="stopVideo()">
+            <pre class="here">Hey! Caught you staring?🫠Time to dive in and <br>EXPLORE THE MAGIC ✨😁! </pre>
+        </a>
+    </div>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">⬆ Top</button>
+    <script>
+        window.onscroll = function() {
+            let scrollBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+    
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+        function stopVideo() {
+                let video = document.getElementById("myVideo");
+                video.pause(); // Stops video playback
+                video.muted = true; // Mutes the video
+            }
+    </script>
+</body>
+</html>
