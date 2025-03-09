@@ -63,5 +63,20 @@
             standing by me in both the best and toughest phases of life🫂, always backing me up when I need it the most.</p>
         <p>With a family like this, every challenge feels conquerable, and every success feels even more meaningful! ❤️</p>
     </fieldset>
+     <button id="scrollToTopBtn" onclick="scrollToTop()">⬆ Top</button>
+    <script>
+        window.onscroll = function() {
+            let scrollBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+    
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    </script>
 </body>
 </html>
