@@ -160,19 +160,19 @@ h1 {
 /* Responsive Design */
 @media screen and (max-width: 1080px) {
     .profile-pic {
-        max-width: 250px;
+        max-width: 100px;
     }
 
     .profile-box {
-        padding: 40px;
+        padding: 100px;
     }
 
     .obj {
-        font-size: 25px;
+        font-size: 55px;
     }
 
     .obj_1 {
-        font-size: 18px;
+        font-size: 40px;
     }
 }
 
