@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:crimson;
+}
+.heading{
+    background-color: green;
+    padding: 40px;
+    padding-left: 120px;
+    text-align: center;
+    font-weight:600;
+    font-size: 100px;
+    width: 100%;
+    letter-spacing: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+
+}
+.heading:hover{
+    background-color: black;
+    color:white;
+    text-shadow: 0 0 15px 15px white ;
+}
+ .home{
+    background-color: aqua;
+    padding:20px;
+    position: absolute;
+    top:80px;
+    height: 90px;
+    left: 20px;
+    width: 90px;
+    font-size: 20px;
+    letter-spacing: 0cap;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 50px; 
+    display:flex;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out; 
+}
+ .home:hover{
+    background-color: yellow;
+    transform: scale(1.4);
+}
+.navigation{
+    background-color: #7256f0;
+    padding: 20px;
+}
+nav ul li {
+ 
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    margin: 0 35px;
+    padding: 10px 30px;
+    background: #eeefeb;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li:hover {
+    background: rgb(35, 192, 10); 
+    border-radius: 20px; 
+    transform: scale(1.2); 
+}
+
+/* Style for the links */
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    display: block; 
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover a {
+    color: white;
+}
+.outer-container{
+    margin-top: 130px;
+    background-color: rgb(25, 24, 8);
+    border: 5px solid black;
+    padding: 200px;
+    margin-bottom: 40px;
+    align-items: center;
+    width: 1200px;
+    height: 440px;
+    box-shadow: 0px 0px 15px 15px green;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.c{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+    position: absolute;
+    left: 40px;
+    margin-left: 0;
+    top: 30px;
+}
+.cpp{
+    width: 180px;
+    height: 180px;
+    border-radius: 60px;
+    position: absolute;
+    left: 240px;
+    margin-left: 0;
+    top: 10px;
+}
+.css3{
+    width: 180px;
+    height: 180px;
+    border-radius: 60px;
+    position: absolute;
+    left: 460px;
+    margin-left: 0;
+    top: 20px;
+}
+.html5{
+    width: 180px;
+    height: 180px;
+    border-radius: 60px;
+    position: absolute;
+    left: 700px;
+    margin-left: 0;
+    top: 25px;
+}
+.js{
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    position: absolute;
+    left: 950px;
+    margin-left: 0;
+    top: 25px;
+}
+.mysql{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    margin-left: 0;
+    top: 200px;
+}
+.php{
+    width: 190px;
+    height: 140px;
+    border-radius: 80px;
+    position: absolute;
+    left: 240px;
+    margin-left: 0;
+    top: 230px;
+}
+.sql{
+    width: 190px;
+    height: 180px;
+    border-radius: 80px;
+    position: absolute;
+    left: 470px;
+    margin-left: 0;
+    top: 230px;
+}
+.java{
+    width: 210px;
+    height: 200px;
+    border-radius: 80px;
+    position: absolute;
+    left: 680px;
+    margin-left: 0;
+    top: 220px;
+}
+.python{
+    width: 190px;
+    height: 190px;
+    border-radius: 40px;
+    position: absolute;
+    left: 960px;
+    margin-left: 0;
+    top: 230px;
+}
+.c:hover{
+    cursor:grab;
+    transform: scale(1.2);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(237, 107, 7);
+}
+.cpp:hover{
+    cursor:grab;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(234, 16, 16);
+}
+.css3:hover{
+    cursor:grab;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(15, 221, 29);
+}
+.html5:hover{
+    cursor:grab;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(159, 231, 16);
+}
+.js:hover{
+    cursor:grab;
+    transform: scale(1.2);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(18, 230, 201);
+}
+.mysql:hover{
+    cursor:grab;
+    transform: scale(1);
+    height: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 90px;
+    box-shadow: 0px 0px 15px 15px rgb(237, 7, 7);
+}
+.php:hover {
+    cursor: grab;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(237, 107, 7); 
+    pointer-events: auto; 
+}
+
+.sql:hover{
+    cursor:grab;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(191, 237, 7);
+}
+.java:hover{
+    cursor:grab;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(26, 237, 7);
+}
+.python:hover{
+    cursor:grab;
+    height:180px;
+    transform: scale(1.1);
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgb(237, 107, 7);
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    display: none; 
+    transition: opacity 0.3s;
+    
+}
+
+#scrollToTopBtn:hover {
+    background-color: #f64f0d;
+}

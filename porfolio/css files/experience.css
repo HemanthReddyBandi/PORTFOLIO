@@ -1,0 +1,183 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header h1{
+        font-size: 70px;
+        letter-spacing: 40px;
+        text-transform: uppercase;
+        background-color: rgb(178, 113, 15);
+        padding: 40px;
+        padding-left: 50px;
+        text-align: center;
+        width:100%;
+        
+    }
+    header h1:hover{
+        background-color: black;
+        color: chocolate;
+        transform: scale(1.2);
+    }
+    .home{
+        background-color: aqua;
+        padding: 10px;
+        position: relative;
+        top:-70px;
+        left: 30px;
+        width: 70px;
+        font-size: 20px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px; 
+        display:flex;
+        transition: transform 0.3s ease-in-out, background 0.3s ease-in-out; 
+    }
+    .home:hover{
+        background-color: yellow;
+        transform: scale(1.4);
+    }
+    .navigation{
+        background-color: #7256f0;
+        padding: 30px;
+        margin: 0;
+        position: relative;
+        top: -65px;
+    }
+    nav ul li {
+     
+        display: inline-block;
+        position: relative;
+        left: 0;
+        margin: 0 35px;
+        padding: 10px 30px;
+        background: #eeefeb;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; 
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+    
+    nav ul li:hover {
+        background: rgb(35, 192, 10); 
+        border-radius: 20px; 
+        transform: scale(1.2); 
+    }
+    
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 29px;
+        display: block; 
+        padding: 10px 15px;
+        transition: color 0.3s ease;
+    }
+    nav ul li:hover a {
+        color: white; 
+    }
+    hr{
+        border:3px solid black;
+        top: -10px;
+        position: relative;   
+    }
+    h3{
+        font-size: 30px;
+        font-style: normal;
+        font-family:Arial, Helvetica, sans-serif;
+        bottom: 5px;
+    }
+    p{
+        position:relative;
+        top: 10px;
+        bottom: 10px;
+        font-size: 28px;
+    }
+    .section1{
+        background-color:wheat;
+        overflow: hidden;
+        border: 5px solid rgb(44, 223, 83);
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        top: 40px;
+        padding-top: 10px;
+        display: inline-block;
+        width:100%;
+    }
+    .section1:hover{
+        background-color: rgb(227, 196, 109);
+        
+    }
+    legend{
+        padding-top: 10px;
+        background-color: white;
+        text-align: left;
+        margin-left: 30px;
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(9, 23, 26);
+    }
+    .descrip{
+        text-indent: 50px;
+        position:relative;
+        top: 10px;
+        bottom: 20px;
+        font-size: 28px;
+    }
+    .section2{
+        font-size: 35px;
+        font-weight: bold;
+        margin-left: 10px;
+       text-decoration: double 5px rebeccapurple underline;
+    }
+    .list1 li{
+        margin-top: 20px;
+        margin-left: 60px;
+
+        font-size: 28px;
+        line-height: 15px;
+    }
+    .section3{
+        margin-top: 10px;
+        font-size: 35px;
+        font-weight: bold;
+        margin-left: 10px;
+       text-decoration: double 5px rebeccapurple underline;
+    }
+    .list2 li{
+        margin-top: 30px;
+        margin-left: 60px;
+        font-size: 28px;
+        line-height: 10px;
+    }
+    .section4{
+        font-size: 35px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 10px;
+       text-decoration: double 5px  rebeccapurple underline;
+    }
+    .list3 li{
+        margin-top: 30px;
+        margin-left: 60px;
+        font-size: 28px;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+    #scrollToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #0077b5;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 50%;
+        font-size: 25px;
+        cursor: pointer;
+        display: none; 
+        transition: opacity 0.3s;
+        
+    }
+    
+    #scrollToTopBtn:hover {
+        background-color: #f64f0d;
+    }
