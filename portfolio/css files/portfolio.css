@@ -158,7 +158,7 @@ h1 {
 }
 
 /* Responsive Design Adjustments */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 600px) {
     .profile-box {
         width: 80%;
         padding: 2rem;
