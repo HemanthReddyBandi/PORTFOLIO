@@ -104,10 +104,10 @@ video {
     background-color: #f64f0d;
 }
 
-/* Responsive styles */
+/* Responsive styles 
 @media screen and (max-width: 1080px) {
     .year {
-        font-size: 120px; /* Slightly smaller */
+        font-size: 120px; 
         letter-spacing: 20px;
     }
 
@@ -134,7 +134,7 @@ video {
     }
 }
 
-/* Standard Mobile View (Small to Medium Phones) */
+
 @media screen and (max-width: 768px) {
     .year {
         font-size: 100px;
@@ -164,7 +164,7 @@ video {
     }
 }
 
-/* Small Mobile Screens (e.g., 480px width) */
+
 @media screen and (max-width: 480px) {
     .year {
         font-size: 70px;
@@ -193,4 +193,4 @@ video {
         padding: 6px 10px;
     }
 }
-
+*/
