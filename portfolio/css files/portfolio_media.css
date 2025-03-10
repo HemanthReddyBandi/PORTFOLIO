@@ -1,159 +1,165 @@
-@media (max-width:1080px){
-    header{
+@media screen and (max-width: 1080px) and (max-height: 2400px) { 
+    header {
         background-color: rgb(20, 19, 19);
-        padding: -100%;
+        padding: 20px;
         width: 100%;
         position: relative;
-
     }
+
     body {
         font-family: Arial, sans-serif;
         text-align: center;
-        background-color:rgb(213, 164, 29);
+        background-color: rgb(213, 164, 29);
         margin: 0;
-        padding: 50%;
         padding: 0;
     }
+
     h1 {
         margin-top: 20px;
-        font-size: 50px;
-        font-style:initial ;
+        font-size: 45px;
         color: white;
     }
-    .github-container a{
+
+    .github-container a {
         position: absolute;
-        color:white;
+        color: white;
         text-decoration: none;
-        right:570px;
+        right: 500px;
         font-size: 18px;
         top: 120px;
-        
     }
-    .insta-container a{
+
+    .insta-container a {
         position: absolute;
-        color:white;
+        color: white;
         text-decoration: none;
-        right:100px;
+        right: 80px;
         font-size: 18px;
         top: 120px;
-        
     }
+
     .linkedin-container {
         position: absolute;
-        top: 42.5%; 
+        top: 40%; 
         right: 320px; 
         transform: translateY(-50%);
         display: flex;
         align-items: center;
-        gap: 10px; /
+        gap: 10px;
     }
-    .location-info{
+
+    .location-info {
         text-align: left;
         margin-left: 140px;
         position: absolute;
-        bottom: 160px;
-        padding-left: -30px;
-        letter-spacing: 3px;
-        font-size: 25px;
-        color: white ;
-     }
-     .contact-info{
+        bottom: 130px;
+        font-size: 22px;
+        color: white;
+    }
+
+    .contact-info {
         text-align: left;
         position: relative;
-          right: 240px;
-         top: 20px;
-          font-size: 25px;
-          color: white;
-      }
-      .mail-info{
+        right: 200px;
+        top: 20px;
+        font-size: 22px;
+        color: white;
+    }
+
+    .mail-info {
         color: white;
         position: relative;
-        right: 270px;
-        top: -35px;
+        right: 230px;
+        top: -30px;
         text-align: left;
-        font-size: 30px;
-        
+        font-size: 22px;
     }
+
     .logo {
         position: absolute;
         right: 40px;
-        top: 44%;
-        transform: translateY(-50%); 
+        top: 42%;
+        transform: translateY(-50%);
     }
-    
+
     .logo-pic {
-        width: 200px; 
-        height: 80px;
-        border-radius: 10%; 
-        object-fit: cover; 
-        background-color:transparent;
-        mix-blend-mode: multiply; 
+        width: 180px;
+        height: 70px;
+        border-radius: 10%;
+        object-fit: cover;
+        mix-blend-mode: multiply;
     }
+
     .profile-pic {
-        width: 350px;
-        height: 550px;
-        background: unset;
-        position: absolute;
-        left:-70px;
-        top: 60%; 
-        transform: translateY(-50%); 
-    }
-    nav ul li {
-        position: relative;
-        left: 40px;
-        display: inline-block;
-        margin: 0 5px;
-        padding: 3px 0px;
-        background: #eeefeb;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px; 
-        transition: background 0.3s ease, transform 0.3s ease;
-    }
-    .profile-box{
-        position: absolute;
-        left: 240px;
-        top: 410px;
-        border: 2px solid black;
-        padding: 100px;
-        border-radius: 10px;
-        box-shadow: 3px 3px 10px gray;
-        width: 600px;
-        background-color: white;
-        text-align: left;
-        overflow: hidden; 
-        word-wrap: break-word;
-box-shadow: 0 0  15px 15px rgba(199, 16, 16, 0.7);
-    }
-    .obj{
+        width: 80%;
+        max-width: 330px;
+        height: auto;
         position: absolute;
         left: 20px;
-        top: 10%;
-        margin: 0;
+        top: 58%;
+        transform: translateY(-50%);
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        position: relative;
+        left: 0;
+        display: inline-block;
+        margin: 0 5px;
+        padding: 8px;
+        background: #eeefeb;
+        border-radius: 20px;
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .profile-box {
+        position: relative;
+        margin: 80px auto 0;
+        padding: 60px;
+        width: 90%;
+        max-width: 600px;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px gray;
+        background-color: white;
+        text-align: left;
+        overflow: hidden;
+        word-wrap: break-word;
+        box-shadow: 0 0 15px 15px rgba(199, 16, 16, 0.7);
+    }
+
+    .obj {
+        position: relative;
+        left: 20px;
         font-weight: bold;
         font-size: 20px;
     }
-    .obj_1{
-        position: absolute;
-        line-height:30px;
-        left: 100px;
-        top: 22%;
-        margin: 0;
-        font-weight: normal;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-style:normal;
+
+    .obj_1 {
+        position: relative;
+        line-height: 30px;
+        left: 20px;
         font-size: 18px;
-        white-space: pre-wrap; 
+        white-space: pre-wrap;
     }
-    .index{
-        position: absolute;
+
+    .index {
+        position: fixed;
         background-color: white;
         font-size: 20px;
         padding: 4px;
         bottom: 10px;
         right: 10px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-radius: 20px;
         transition: background 0.3s ease, transform 0.3s ease;
     }
-}
 
+    .index:hover {
+        background-color: #17d52e;
+        transform: scale(1.2);
+    }
+}
