@@ -1,7 +1,7 @@
 @media screen and (max-width: 1080px) and (max-height: 2400px) { 
     header {
         background-color: rgb(20, 19, 19);
-        padding: 20px;
+        padding: 200px;
         width: 100%;
         position: relative;
     }
