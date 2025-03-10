@@ -49,12 +49,12 @@
     }
     .location-info{
         text-align: left;
-        margin-left: 100px;
+        margin-left: 140px;
         position: absolute;
-        bottom: 155px;
-        padding-left: -15px;
+        bottom: 160px;
+        padding-left: -30px;
         letter-spacing: 3px;
-        font-size: 30px;
+        font-size: 25px;
         color: white ;
      }
      .contact-info{
