@@ -77,7 +77,7 @@ nav ul li:hover a {
     margin-right: 10px;
     gap: 2px;
     border: 6px dashed rgb(205, 21, 153);
-    height: 2500px;
+    height: 3200px;
     margin-bottom: 30px;
     word-wrap: break-word;
     overflow:auto;
@@ -234,6 +234,14 @@ nav ul li:hover a {
     .desc a {
         display: inline-block;
         margin-top: 10px;
+    }
+ .ppt{
+        font-size: 40px;
+        border: 4px solid goldenrod;
+        display: inline-block;
+        margin-top: 420x;
+        margin-left: 40px;
+        box-shadow: 0px 0px 14px 14px springgreen ;
     }
     header a{
         background-color: aqua;
