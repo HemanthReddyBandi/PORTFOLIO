@@ -8,15 +8,17 @@
 </head>
 <body>
    <!-- <video src="../index_background.mp4" autoplay loop unmuted playsinline> Your browser does not support the video tag.</video>-->
-    <div class="video-container">
-         <iframe width="100%" height="100%" 
-    src="https://www.youtube.com/embed/PlAZsrMyXfA?autoplay=1&mute=0&loop=1&playlist=PlAZsrMyXfA&modestbranding=1&controls=0&rel=0&fs=0&disablekb=1&iv_load_policy=3" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="autoplay; encrypted-media; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+ <div class="video-container">
+    <iframe id="youtubePlayer" width="100%" height="100%" 
+        src="https://www.youtube.com/embed/PlAZsrMyXfA?autoplay=1&mute=1&loop=1&playlist=PlAZsrMyXfA&modestbranding=1&controls=0&rel=0&fs=0&disablekb=1&iv_load_policy=3" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
 </div>
+<!-- Unmute Button -->
+<button onclick="unmuteVideo()">🔊 Unmute</button>
     <div class="overlay">
         <h1 class="year">2025</h1>
         <p class="quote">"Success in programming isn’t about speed; it’s about perseverance."</p>
@@ -47,6 +49,10 @@
                 video.pause(); // Stops video playback
                 video.muted = true; // Mutes the video
             }
+         function unmuteVideo() {
+        var iframe = document.getElementById("youtubePlayer");
+        iframe.src = iframe.src.replace("mute=1", "mute=0");
+    }
     </script>
 </body>
 </html>
