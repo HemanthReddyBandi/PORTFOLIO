@@ -11,7 +11,7 @@
     position: relative;
 }
 
-video {
+.video {
     width: 1000%;
     height: 100vh;
     object-fit: cover;
