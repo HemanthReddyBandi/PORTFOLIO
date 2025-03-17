@@ -11,14 +11,24 @@
     position: relative;
 }
 
-.video {
-    width: 1000%;
-    height: 100vh;
-    object-fit: cover;
-    position: absolute;
+.video-container {
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: -1; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: -1;   
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;  
+    height: 100vh; 
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 .overlay {
     position: absolute;
