@@ -12,7 +12,7 @@
 }
 
 video {
-    width: 100%;
+    width: 1000%;
     height: 100vh;
     object-fit: cover;
     position: absolute;
